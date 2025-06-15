@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <h2>GNASSINGBE <strong>PIERRE</strong></h2>
+      </div>
+      <div class="header-right">
+        <nav>
+          <ul class="menu">
+            <li><a href="#acceuil">ACCEUIL</a></li>
+            <li><a href="#a_propos">A PROPOS</a></li>
+            <li><a href="#projets">PROJETS</a></li>
+            <li><a href="#competances">COMPETANCES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="container">
+      <div id="acceuil">
+        <div class="presentation-text">
+          <p>
+            je suis <span class="special"> Pierre</span>, développeur et
+            passionné
+          </p>
+          <button>voir mes projets</button>
+        </div>
+        <div class="presentation-image">
+          <img src="dev.jpg" width="500" height="500" />
+        </div>
+      </div>
+
+      <div id="a_propos">
+        <h2 class="title">A PROPOS</h2>
+        <div class="about-content">       
+        <div class="about-text">
+          <p>
+            je suis <span class="special"> Pierre</span>, développeur et
+            passionné
+          </p>
+          <p>Le <span class="special"> Web</span>, me passionné</p>
+          <button class="submit-btn">Télécharger mon CV</button>          
+        </div>
+        <div class="about-image">
+            <img src="pierre.jpg" width="300" height="300" />
+          </div>
+          </div>
+      </div>
+
+      <div id="projets">        
+          <h2 class="title">MES PROJET</h2>
+          <div class="projets-container">
+         <div class="projet-list">
+            <div class="projet-item">
+                <p class="description">Mini jeu en ligne</p>
+                <p class="competances">HTML, CSS, JAVASCRIPT</p>
+                <button class="submit-btn">Voir</button>
+            </div>
+            <div class="projet-item">
+                <p class="description">gestion de boutique</p>
+                <p class="competances">HTML, CSS, JAVASCRIPT</p>
+                <button class="submit-btn">Voir</button>
+            </div>
+            
+         </div>
+         
+      </div>
+
+      <div id="competances"> 
+        <h2 class="title">COMPETANCES</h2>
+         <div class="competances-contener">
+            <div class="competances-item">
+                <label>VS CODE</label>
+                <input type="range" name="" value="50">
+                <label>HTML</label>
+                <input type="range" name="" value="45">
+                <label>CSS</label>
+                <input type="range" name="" value="20">
+                <label>JAVASCRIPT</label>
+                <input type="range" name="" value="20">
+            </div>            
+         </div>  
+         </div>    
+      </div>
+     
+
+      <div id="contact"> 
+        <div class="form-container">      
+        <h2>pour des besion de projet contacter nous</h2>        
+        <form class="contact-from" name="contact-from">
+            <div class="from-row">              
+                  <div class="from-group half-width">
+                    <label for="prenom"> PRENOM</label>
+                    <input type="text" name="prenom" id="prenom">
+                </div>
+                <div class="from-group half-width">
+                    <label for="nom"> NOM</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                  <div class="from-group full-width">
+                    <label for="projet">VOTRE PROJET</label>
+                    <input type="text" name="projet" id="projet">
+                </div>                
+                  <div class="from-group half-width">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                </div>                
+                <button type="submit" class="submit-btn">Envoyer</button>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            Site realisé par Pierre avec Html, CSS, Javascript
+        </div>
+        <div class="footer-right">
+            Tous droit reserver 2025          
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
